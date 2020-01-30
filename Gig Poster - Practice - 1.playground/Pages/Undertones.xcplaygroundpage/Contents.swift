@@ -31,6 +31,39 @@ let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 
 // Begin your solution here...
 
+//// let's see were the origin is
+//canvas.drawAxes()
+//
+////move the origin 100 pixels to the right and 200 pixels up
+//canvas.translate(to: Point(x: 100 , y: 200))
+//
+//
+////draw axis again
+//canvas.drawAxes()
+//
+//// lets draw a square at the origin
+//canvas.drawRectangle(at: Point(x: 0, y: 0), width: 50, height: 50)
+//
+//// make shapes not have a fill
+//canvas.drawShapesWithFill = false
+//
+//// move the origin again- over 100, up 300
+//canvas.translate(to: Point(x: 100, y: 300))
+//
+//// draw the origin agian
+//canvas.drawAxes()
+//
+////draw six squares
+//for _ in 1...6{
+//    //rotate the origin
+//    canvas.rotate(by: 60)
+//    
+////    //draw axes
+////    canvas.drawAxes()
+//    
+//    //draw the squares
+//    canvas.drawRectangle(at: Point(x: 0, y: 0), width: 50, height: 50)
+//}
 
 /*:
  ## Use Source Control
